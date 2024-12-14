@@ -1,0 +1,38 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.card {
+    background: linear-gradient(to top, green, blue);
+    border: 2px solid white;
+    padding: 30px;
+    width: 20%;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: none; 
+}
+
+button {
+    padding: 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+    background: linear-gradient(to left, blue, green);
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    width: 20vw;
+    margin-left: 40%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
